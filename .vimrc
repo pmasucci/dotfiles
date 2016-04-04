@@ -2,7 +2,9 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=/home/vagrant/.vim/bundle/Vundle.vim
+if has("unix")
+  set rtp+=/home/vagrant/.vim/bundle/Vundle.vim
+endif
 
 call vundle#begin()
 
