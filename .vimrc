@@ -4,6 +4,7 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 if has("unix")
   set rtp+=/home/vagrant/.vim/bundle/Vundle.vim
+  set rtp+=~/.vim/bundle/Vundle.vim
 endif
 
 call vundle#begin()
@@ -16,8 +17,8 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Raimondi/delimitMate'
 Plugin 'scrooloose/syntastic'
-Plugin 'valloric/YouCompleteMe'
-Plugin 'marijnh/tern_for_vim'
+"Plugin 'valloric/YouCompleteMe'
+"Plugin 'marijnh/tern_for_vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/vim-distinguished'
