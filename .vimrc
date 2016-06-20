@@ -3,7 +3,6 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 if has("unix")
-  set rtp+=/home/vagrant/.vim/bundle/Vundle.vim
   set rtp+=~/.vim/bundle/Vundle.vim
 endif
 
